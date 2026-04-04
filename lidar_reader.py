@@ -29,18 +29,21 @@ class SmartMover(Node):
         self.mindist = 1.0
 
     def listener_callback(self, msg):
+        count = 0
         raw = msg.ranges[:360]
         processed = []
 
         for v in raw:
             if v == float('inf') or v != v:
                 processed.append(1.0)
+                count += 1
             else:
                 processed.append(min(float(v) / 3.5, 1.0))
+                count += 1
 
         if len(processed) == 0:
             return
-
+        print(count)
         # Debug
         self.get_logger().info(f"LiDAR sample: {processed[:10]}")
 
