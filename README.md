@@ -42,12 +42,12 @@ This approach allows continuous learning and adaptation to dynamic environments,
 - **final_code.py** → Merges all modules for final execution of the autonomous navigation system.
 
 
-
 ## How to Run
-1. Install required Python packages:
-   ```bash
-  pip install torch gym numpy matplotlib
-  python lidar_reder.py
+
+1. **Install required Python packages:**
+
+`bash
+pip install torch gym numpy matplotlib
 
 ## modules run in this order
 - **python drl_training.py:**
@@ -55,7 +55,7 @@ This approach allows continuous learning and adaptation to dynamic environments,
 - **python final_code.py:**
 
 
-##Future Work
-1.Improve DRL training efficiency and stability
-2.Add more complex simulated environments
-3.Integrate the system with a real robot for practical testing
+## Future Work
+- **Improve DRL training efficiency and stability:**
+   - **Add more complex simulated environments:**
+- **Integrate the system with a real robot for practical testing:**
