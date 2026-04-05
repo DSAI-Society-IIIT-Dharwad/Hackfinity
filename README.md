@@ -56,6 +56,6 @@ python final_code.py
 
 
 ##Future Work
--Improve DRL training efficiency and stability
--Add more complex simulated environments
--Integrate the system with a real robot for practical testing
+1.Improve DRL training efficiency and stability
+2.Add more complex simulated environments
+3.Integrate the system with a real robot for practical testing
