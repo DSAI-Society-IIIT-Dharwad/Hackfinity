@@ -56,6 +56,6 @@ pip install torch gym numpy matplotlib
 
 
 ## Future Work
-- **Improve DRL training efficiency and stability:**
-   - **Add more complex simulated environments:**
-- **Integrate the system with a real robot for practical testing:**
+- **Improve DRL training efficiency and stability**
+- **Add more complex simulated environments**
+- **Integrate the system with a real robot for practical testing**
