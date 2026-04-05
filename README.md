@@ -46,13 +46,13 @@ This approach allows continuous learning and adaptation to dynamic environments,
 ## How to Run
 1. Install required Python packages:
    ```bash
-  # pip install torch gym numpy matplotlib
-  # python lidar_reder.py
+  pip install torch gym numpy matplotlib
+  python lidar_reder.py
 
-##modules run in this order
-python drl_training.py
-python drl_trial_env.py
-python final_code.py
+## modules run in this order
+- **python drl_training.py:**
+- **python drl_trial_env.py:**
+- **python final_code.py:**
 
 
 ##Future Work
