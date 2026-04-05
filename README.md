@@ -47,5 +47,3 @@ This approach allows continuous learning and adaptation to dynamic environments,
 - **Add more complex simulated environments**
 - **Integrate the system with a real robot for practical testing**
 
-```bash
-pip install torch gym numpy matplotlib
